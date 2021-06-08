@@ -1,0 +1,1053 @@
+*{
+  font-family: 'Roboto';
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  opacity: 0;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#3b3390;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7367f0;
+  opacity: 1;
+}
+.w-100{
+    height: 100%;
+  }
+.carousel-inner{
+	border-radius: 5px;
+	height: 100%;
+}
+.carousel-item{
+	height: 100%;
+}
+.carousel{
+	position: relative !important;
+	border-radius: 10px;
+}
+.carousel-fade{
+	height: 100%;
+}
+.carousel-control-prev, .carousel-control-next {
+	opacity: 0;
+}
+.textslider-header {
+	color: white;
+	font-size: 16px;
+}
+.textslider-team {
+	color: white;
+	font-size: 21px;
+	font-weight: bold;
+}
+.textslider-time {
+	text-align: center;
+	color: white;
+}
+.textslider-score {
+	text-align: center;
+	color: white;
+	padding: 0px 30%;
+}
+.score-text{
+	border-radius: 6px;
+	border-width: 0px !important;
+	border-color: rgba(255, 255, 255, 0.6);
+	background-color: rgba(21, 15, 93, 0.3);
+	padding: 5px 0px !important;
+}
+.footer-list{
+padding-left: 0px;
+}
+.footer-list-item{
+	color: white;
+	display: block;
+	font-size: 12px;
+	margin: 3% 0px;
+}
+.footer-list-item a:hover{
+	color: #fff !important;
+	font-weight: bold;
+}
+.image-lazy{
+background: url('https://static.betconstruct.me/fs/userFiles/vbetcom-updated/images/97092-hover-1.png')
+}
+.casino-innor{
+	border-radius: 10px;
+	position: absolute;
+	width: 94.5%;
+	height: 100%;
+	top: 0px;
+	transition: 0.6s;
+}
+.casino-innor:hover {
+	cursor: pointer;
+	background-color: rgba(21, 15, 93, 0.69);
+}
+.casino-innor:hover .casino-innor-heart {
+	opacity: 1;
+}
+.casino-innor:hover .casino-innor-buttons {
+	opacity: 1;
+}
+.casino-innor:hover .casino-innor-title-container {
+	opacity: 1;
+}
+.casino-innor-heart{
+	padding: 1% 2%;
+	width: 100%;
+	text-align: right;
+	opacity: 0;
+	transition: 0.6s;
+}
+.casino-innor-buttons{
+	opacity: 0;
+	text-align: center;
+	vertical-align: middle;
+	transition: 0.6s;
+}
+.casino-innor-title-container{
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	width: 100%;
+	padding: 1% 2%;
+	border-radius: 0px 0px 10px 10px;
+	transition: 0.6s;
+	position: absolute;
+	bottom: 0px;
+}
+.cardslider-title{
+	font-size: 120%;
+}
+.cardslider-text{
+	font-size: 80%;
+	width: 50%;
+}
+
+/***************************  header  **************************/
+.header-nav-bar-item-group {
+    width: auto !important;
+	display: flex;
+	margin-left: 6px;
+}
+.header-nav-bar{
+  	background-color: rgb(16,34,38) !important;
+	height: 70px;
+	position: fixed !important;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 100 !important;
+	box-shadow: none;
+	overflow: hidden;
+}
+.header-nav-bar-menu{
+	background-color: rgb(31, 174, 115) !important;
+	height: 40px;
+	position: fixed !important;
+	top: 70px;
+	left: 0px;
+	width: 100%;
+	z-index: 99 !important;
+}
+.header-nav-bar-brand{
+	overflow: hidden;
+	padding: 0px 3%;
+	margin: 0px;
+}
+.header-nav-bar-item{
+	padding: 5px 10px;
+	font-size: 20px;
+}
+.header-nav-bar-item:hover{
+	background-color: rgb(46, 151, 107);
+	transform: skew(-10deg);
+	transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.header-nav-bar-item a:hover {
+  	color: white !important;
+}
+.header-nav-bar-item a{
+	color: white !important;
+	/* font-weight: bold; */
+	font-size: 17px;
+}
+.header-navbar-collapse{
+  	z-index: 3;
+}
+.header-nav-bar-user {
+	display: flex;
+	position: absolute;
+	right: 0px;
+}
+.header-clock-time {
+	display: flex;
+	margin: .275rem;
+	height: 80%;
+}
+.header-clock-time svg {
+	font-size: 30px;
+	margin: 0.375rem;
+}
+.header-clock-time h1{
+	line-height: 1.4;
+	margin: 0px;
+}
+.header-clock-def {
+	color: #1a9a65 !important;
+	font-weight: bold;
+	line-height: 1.4;
+}
+.header-time-bar {
+	display: flex;
+}
+.header-clock-mon span{
+	color: #1a9a65 !important;
+	font-weight: bold;
+}
+.header-clock-year {
+	font-weight: bold;
+	display: table;
+	height: 100% !important;
+}
+.header-clock-year span {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0px !important;
+	font-size: 1.5rem;
+}
+.header-clock-date {
+	margin: .375rem;
+}
+.header-dropdown-user {
+	display: table;
+	height: 100%;
+}
+.header-dropdown-user .dropdown-user-link {
+	padding: 0px 6px;
+	display: table-cell !important;
+	vertical-align: middle;
+}
+.header-dropdown-user .dropdown-user-link svg {
+	float: left;
+	font-size: 1.37rem;
+}
+.header-dropdown-user .dropdown-user-link h4 {
+	float: left;
+}
+.header-user-info {
+	display: flex;
+}
+.header-user-balance {
+	padding: 12px 40px 12px 20px;
+}
+.header-user-balance h5 {
+	font-size: 20px;
+	margin: 0px;
+}
+.header-user-background {
+	position: absolute;
+    width: 110px;
+    height: 74px;
+    right: -30px;
+    top: -15px;
+    transform: skew(-20deg, 0deg);
+    background-color: rgb(45, 68, 79);
+}
+.header-user-name {
+	transform: skew(20deg 0);
+}
+h4.header-user-name::after {
+    content: '';
+    position: absolute;
+    width: 150%;
+    height: 145%;
+    top: -11px;
+    right: -20px;
+    transform: skew(-20deg, 0deg);
+    background-color: #2c434e;
+    z-index: -1;
+}
+.header-user-dropdown-menu {
+    top: 14px !important;
+    border-radius: 0px !important;
+	padding: 0px !important;
+	background-color: #2c434e !important;
+}
+.header-user-dropdown-menu a {
+	border-bottom: 1px solid #14343c;
+	text-align: center;
+	padding: 0.814rem 3.428rem !important;
+}
+.header-user-dropdown-menu::before {
+	display: none !important;
+}
+.header-dropdown-user .dorpdown-user-link {
+	padding: 0px 12px;
+}
+.header-dropdown-user .header-user-dropdown-menu .dropdown-item:hover svg, .dropdown .dropdown-menu .dropdown-item:hover span {
+	color: #ffffff !important;
+	font-weight: bold;
+}
+.header-user-dropdown-menu.dropdown-menu.show {
+	position: fixed !important;
+	right: 0px !important;
+    left: unset !important;
+	top: 70px !important;
+}
+
+/************************ header **********************/
+
+
+/************************ content **********************/
+
+body .content .content-wrapper {
+	margin-top: 110px !important;
+	padding: 0px !important;
+}
+
+.fp-header .col-12 {
+	padding: 0px !important;
+}
+.fp-header div img {
+	width: 100%;
+	height: 100%;
+}
+.fp-header-image {
+	height: 40vw;
+	overflow: hidden;
+}
+.fp-header-def {
+	position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0px;
+    transform: skewX(17deg);
+	left: -20%;
+	background-color: rgba(34, 51, 56, 0.65);
+	z-index: 1;
+}
+.fp-header-def .fp-header-def-h h1 {
+	float: right;
+    transform: skew(-17deg);
+	font-size: 3vw;
+	margin: 0px;
+	font-weight: 100;
+}
+.fp-header-def .fp-header-def-s span {
+	float: right;
+    transform: skew(-17deg);
+	font-size: 1.06vw;
+	margin: 0px;
+	font-weight: 100;
+}
+.fp-header-def .fp-header-def-s{
+	position: absolute;
+    top: 38%;
+	right: -8.65vw;
+	padding: 0.2vw 1.1vw;
+    background-color: rgb(20, 58, 58);
+}
+.fp-header-def .fp-header-def-h {
+	position: absolute;
+    top: 25%;
+	right: -29%;
+	padding: 0.1vw 1vw;
+	background-color: rgb(22, 114, 114);
+}
+.fp-header-def .fp-header-def-c {
+	position: absolute;
+    top: 55%;
+	right: -10vw;
+	padding-top: 3.5vw;
+	transform: skew(-17deg);
+	border-top: 2px solid rgb(30, 134, 99)
+}
+.fp-header-def-c h5 {
+	font-size: 2vw;
+}
+.fp-header-def-c span {
+	font-size: 1.7vw;
+}
+.fp-content-text {
+	margin: 0px !important;
+}
+.fp-content-col .bg-image {
+	width: 100%;
+	height: 100%;
+}
+.fp-content-col {
+	padding-right: 10px !important;
+	height: 25vw;
+}
+.fp-content-col-title::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    background: #1fae73;
+    transition: 0.5s;
+    left: 0px;
+}
+.fp-content-col-title {
+	position: absolute;
+	bottom: 0px;
+	transition: 1s;
+	display: flex;
+	height: 100%;
+	width: calc(100% - 10px);
+	flex-direction: column-reverse;
+	box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.2);
+}
+.fp-content-col-title span {
+	margin: 0px 1vw;
+	font-size: 1.7vw;
+	color: white !important;
+}
+.fp-content-col-title h2 span {
+    position: absolute;
+    bottom: 3vw;
+    font-size: 3vw !important;
+}
+.fp-content-col-title h2 span::before {
+    content: '';
+    width: 0px;
+    background-color: #1fad72;
+    height: 1px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    transition: 0.5s;
+}
+.fp-content-col-title:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.fp-content-col-title:hover:after,.fp-content-col-title h2 span::before{
+	width: 100%;
+}
+.fp-content-col-title:hover .fp-content-col-title h2 span::before{
+	width: 100%;
+}
+.fp-center-letter {
+	text-align: center;
+	background-color: #102226;
+	padding: 1vw 0px;
+}
+.fp-center-letter h3 {
+	color: #198c5d !important;
+	font-size: 2.4vw;
+}
+.fp-center-letter span {
+	font-size: 1.5vw;
+}
+.fp-game-slider {
+	padding-left: 15px !important;
+}
+.fp-game-slider .swiper-wrapper {
+	height: 25vw;
+}
+.fp-game-tab {
+	width: 100%;
+}
+
+/************************ content **********************/
+
+/************************ footer ***********************/
+footer {
+	z-index: 999;
+    background-color: rgb(16, 34, 38);
+	width: 100%;
+	padding: 2vw;
+}
+.footer-logo {
+	text-align: center;
+}
+.footer-logo img{
+	width: 150px;
+    height: 63px;
+}
+.footer-logo-text {
+	text-align: center;
+}
+.footer-logo-text span {
+	display: inline-block;
+}
+.footer-logo-text span strong {
+	color: #ff9f43;
+}
+.ul-list {
+	padding: 0px;
+}
+.ul-list li {
+	list-style: none;
+}
+.ul-list-item a{
+	color: white !important;
+	font-size: 17px;
+}
+.ul-list-item a:hover {
+	font-weight: bold;
+}
+.footer-socials-feed {
+	text-align: center;
+}
+.footer-socials-feed svg {
+	margin: 0px 2px;
+}
+.footer-menu {
+	text-align: center;
+}
+.footer-menu .ul-list {
+	display: inline-block;
+	text-align: left;
+}
+.footer-gameprovider-slider {
+	text-align: center;
+}
+/* .gameprovider-imgs {
+	display: flex;
+} */
+.gameprovider-imgs img {
+	width: 100px;
+	margin: 0px 5px;
+}
+.footer-paymentmethod {
+	text-align: center;
+}
+.paymentmethods-imgs img {
+	width: 100px;
+	margin: 0px 20px;
+	height: 40px;
+}
+
+
+/************************ footer ***********************/
+
+/*********** Login, Register ************/
+
+.login-page,.register-page {
+	position: fixed !important;
+    top: 120px;
+    right: 10px;
+    width: 250px;
+    background-color: #102226ad !important;
+}
+.login-page .card-header,.register-page .card-header {
+	background-color: #10222600 !important;
+	text-align: center;
+}
+.login-page .card-header h4, .register-page .card-header h4 {
+	width: 100%;
+}
+.login-page button, .register-page button {
+	padding: 10px 10px !important;
+}
+.login-page .card-body, .register-page .card-body {
+	padding: 1vw !important;
+}
+
+/*********** Login ************/
+
+/********************** LiveCasino *******************/
+
+.live-header .col-12{
+	padding: 0px;
+}
+.live-header-slider .swiper-container {
+	height: 40vw;
+}
+.live-header-slider img {
+	min-height: 40vw;
+	height: auto;
+	width: 100%;
+}
+.live-header-slider .swiper-pagination span {
+	border: 1px solid #1fae73;
+    border-radius: 3px;
+}
+.live-header-slider .swiper-pagination-bullet-active {
+	background-color: #1fae73;
+}
+.underlay-bg {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top: 0px;
+	left: -15%;
+	z-index: 3;
+	transform: skew(20deg, 0deg);
+    background: #113536a1;
+}
+.underlay-text {
+	position: absolute;
+    right: 0vw;
+    width: 30vw;
+    transform: skew(-20deg, 0deg);
+    top: 13vw;
+}
+.underlay-text h3 {
+	margin: 0px;
+	width: 60%;
+	font-size: 2.5vw;
+}
+.underlay-text span {
+	display: inline-block;
+}
+.underlay-text strong {
+	font-size: 3vw;
+	color: rgb(237, 208, 117);
+}
+.underlay-bg button {
+	position: absolute;
+    bottom: 8vw;
+	right: 24vw;
+	transform: skew(-20deg, 0deg);
+	padding: 1.2vw 1.5vw;
+    font-size: 1.2vw;
+}
+.live-dealers {
+	margin: 0px 0px;
+}
+.collapse_header {
+	display: block;
+	overflow: hidden;
+	border-top: .5px solid #17444e;
+}
+.collapse_header h3 {
+	margin: 0px;
+    padding: 0.5vw 2vw;
+    font-size: 1.6vw;
+    background: -webkit-linear-gradient(0deg, #3bb97f, #00787d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block;
+	position: relative;
+}
+.collapse_header h3::after {
+	content: '';
+    position: absolute;
+    width: 115%;
+    height: 100%;
+    top: 0px;
+    z-index: -1;
+	transform: skew(-20deg, 0deg);
+	left: -2.2vw;
+	background-color: #17444e;
+}
+.collapse_body {
+	display: flex;
+}
+.collapse_footer {
+	width: 100%;
+	text-align: center;
+	background-color: #17444e;
+	margin-top: 2px;
+	padding: 0.5vw 0px;
+}
+.collapse_footer a {
+	color: #3bb97f !important;
+	width: 100%;
+}
+.collapse_footer svg {
+	color: #3bb97f;
+	margin: 0px 5px;
+}
+.dealer-info {
+	width: 16.6666%;
+	overflow: hidden;
+	padding: 0px 1px;
+	position: relative;
+}
+.dealer-info img {
+	width: 100%;
+}
+.dealer-status {
+	display: inline-block;
+    padding: 1px 7px 1px 12px;
+    background-color: #00a25f;
+    transform: skew(-20deg, 0deg);
+    position: absolute;
+	left: -5px;
+	bottom: 2vw;
+}
+.dealer-info h4 {
+	position: absolute;
+	bottom: 0px;
+	margin: 0px;
+	font-size: 1vw;
+    left: 10px;
+}
+.dealer-hover {
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+	opacity: 0;
+	transition: 0.6s;
+}
+.dealer-info:hover .dealer-hover {
+	opacity: 1;
+}
+.dealer-status span {
+	transform: skew(20deg, 0deg);
+	font-size: 1.2vw;
+	display: inherit;
+	color: white !important;
+}
+.dealer-hover button {
+    padding: 1vw 3vw !important;
+	font-size: 1.5vw;
+	position: relative;
+	top: 17vw;
+}
+.dealer-info h3 {
+	display: inline-block;
+	margin: 0px;
+	position: absolute;
+	right: 5px;
+    font-size: 1.2vw;
+    top: 5px;
+}
+
+/********************** LiveCasino *******************/
+
+@media (max-width: 1350px) {
+	.header-nav-bar-brand{
+		padding: 0px !important;
+		margin: 0px !important;
+	}
+}
+@media (max-width: 1250px) {
+ 	.header-nav-bar-user div div button {
+ 	   	padding: 13px;
+	}
+	.header-nav-bar-item{
+		padding: 5px 10px;
+		font-size: 14px;
+	}
+	.header-nav-bar-item a {
+		font-size: 14px;
+	}
+	.btn-bonuses {
+		right: 90px !important;
+	}
+	.header-nav-bar-menu{
+		height: 30px;
+	}
+	body .content .content-wrapper {
+		margin-top: 100px !important;
+	}
+}
+@media (max-width: 1050px) {
+	.header-nav-bar-user div div button {
+		padding: 13px 10px;
+		font-size: 12px;
+	}
+	.header-clock-time {
+		margin: .375rem;
+	}
+	.header-clock-time svg {
+		font-size: 24px;	
+	}
+	.header-clock-time h1 {
+		font-size: 25px;
+	}
+	.header-clock-mon span {
+		font-size: 12px;
+	}
+	.header-clock-year {
+		font-size: 12px;
+	}
+	.btn-bonuses {
+		right: 34px !important;
+	}
+  	.btn-bitcoin a {
+		display: none;
+	}
+  	.btn-bonuses a {
+		display: none;
+	}
+}
+@media (max-width: 995px) {
+	.header-user-info li div.header-user-dropdown-menu.dropdown-menu.show {
+		right: -176px !important;
+	}
+}
+@media (max-width: 850px) {
+	.header-nav-bar-menu {
+		height: 24px;
+	}
+	.header-nav-bar-item {
+		padding: 5px 7px;
+		font-size: 10px;
+	}
+	.header-nav-bar-item a {
+		font-size: 10px;
+	}
+	.content-wrapper {
+		margin-top: 74px;
+	}
+	body .content .content-wrapper {
+		margin-top: 74px !important;
+	}
+}
+@media (max-width: 768px) {
+	.header-navbar-collapse{
+		text-align: center;
+		background-color: rgba(0, 0, 0, 0.8);
+		height: 90vh;
+		z-index: 11;
+	}
+	.header-navbar-lang-dropdown a{
+		display: block !important;
+	}
+	.header-navbar-lang-dropdown .dropdown-menu{
+		top: 45px !important;
+		left: 42% !important;
+		transform: translate(-50%) !important;
+	}
+	.header-navbar-lang-dropdown a span{
+		display: inline-block !important;
+	}
+	.header-user-balance {
+		padding: 15px 10px;
+	}
+	.header-user-balance h5 {
+		font-size: 15px;
+	}
+	.header-clock-time svg {
+		margin: 0.275rem 0px;
+	}
+	body .content .content-wrapper {
+		margin-top: 74px !important;
+	}
+	.header-clock-time {
+		margin: 0.575rem 0px;
+	}
+	.header-clock-time h1 {
+		font-size: 20px;
+	}
+	.header-clock-year span {
+		font-size: 18px;
+	}
+	.header-clock-time svg {
+		font-size: 19px;
+	}
+}
+
+@media (max-width: 650px){
+	.btn-bonuses {
+		right: 24px !important;
+	}
+	.btn-register span {
+		font-size: 8px !important;
+	}
+	.header-nav-bar{
+		padding: 0.3rem 1rem;
+		height: 50px;
+		overflow: hidden;
+	}
+	.header-nav-bar-brand{
+		overflow: hidden;
+		height: 40px;
+	}
+	.header-nav-bar-brand a img {
+		width: 100px !important;
+	}
+	.header-nav-bar-user div div button{
+		padding: 10px 5px;
+		font-size: 10px;
+	}
+	.header-nav-bar-menu{
+		top: 50px;
+	}
+	.header-clock-time {
+		margin: 0.275rem;
+		height: 70%;
+	}
+	.header-clock-time svg {
+		margin: 0.075rem;
+		height: 2.1rem;
+		font-size: 17px;
+	}
+	.header-clock-time h1 {
+		font-size: 17px;
+		line-height: 1.8;
+	}
+	.header-clock-def {
+		font-size: 10px;
+	}
+	.header-clock-date {
+		margin: .075rem;
+	}
+	.header-clock-mon span {
+		font-size: 10px;
+	}
+	.header-clock-year span {
+		font-size: 12px;
+		color: white !important;
+	}
+	.header-clock-year {
+		line-height: 1;
+	}
+	.header-user-info li div.header-user-dropdown-menu.dropdown-menu.show {
+		top: 15px !important;
+	}
+	.login-page, .register-page {
+		top: 80px !important;
+		width: 200px;
+	}
+	.register-page .card-header h4 {
+		width: 100%;
+		font-size: 14px;
+		padding: 3px 0px;
+		margin: 0px;
+	}
+	.login-page .card-header, .register-page .card-header {
+		padding: .5rem 1.5rem 0 !important;
+	}
+	.login-page .form-group, .register-page .form-group {
+		margin-bottom: 0.5rem !important;
+	}
+	.header-user-balance {
+		padding: 14px 10px;
+	}
+	.header-user-balance h5 {
+		font-size: 15px;
+	}
+	.header-user-dropdown-menu.dropdown-menu.show {
+		top: 5px !important;
+		right: -123px !important;
+	}
+}
+
+@media (max-width: 625px) {
+	.header-nav-bar-item {
+		padding: 5px 5px;
+	}
+}
+
+@media (max-width: 550px) {
+	.header-nav-bar-item {
+		padding: 5px 3px;
+	}
+	.header-nav-bar-item {
+		font-size: 9px;
+	}
+	.btn-bonuses {
+		right: 16px !important;
+	}
+}
+
+@media (max-width: 460px) {
+	.btn-register span {
+		display: none !important;
+	}
+	.header-nav-bar-item a {
+		display: none;
+	}
+}
+
+.select__menu {
+  z-index: 9999999999999999 !important;
+  position: fixed;
+  color: white;
+}
+.select__option {
+  z-index: 999 !important;
+}
+.select__option:hover{
+  background-color: #2684ff !important;
+}
+
+/**************************Casino*********************************/
+.casino-betconstruct-score .row div h4,h1{
+  text-align: center;
+  margin: 0px;
+}
+.casino-betconstruct-score .row div h1{
+  text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 5px 2px #3B2C82, 0 6px 2px rgba(255, 255, 255, 0.15), 0 3px 9px rgba(240, 240, 240, 0.6), 0 3px 7px rgba(255, 255, 255, 0.31), 0 3px 3px rgba(255, 255, 255, 0.61);
+}
+.casino-game-show-select {
+  width: 20%;
+  float: right;
+}
+
+.btn-game-play {
+  padding: 5% 0% !important;
+  width: 60%;
+  font-size: 90%;
+  position: absolute;
+  top: 44%;
+  transform: translate(54%,-50%);
+  right: 50%;
+}
+.img-game-dealer {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  border-radius: 50%;
+  border: 1px solid #ffff1a;
+}
+.name-game-dealer {
+  color: white !important;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.casino-left-image{
+  width: 18vw;
+  height: 30vh;
+  position: fixed;
+  top: 15%;
+  transform: rotateY(180deg);
+  transition: 1s;
+  animation-name: leftimage;
+  animation-duration: 4s;
+  left: -2%;
+}
+.casino-left-letter{
+  position: fixed;
+  color: white !important;
+  font-weight: 700;
+  font-size: 4vh;
+  left: 10%; top: 20%;
+  animation-name: lefttext;
+  animation-duration: 6s;
+  text-shadow: 0px 0px 10px white;
+  text-align: center;
+  width: 12vw;
+}
+@keyframes leftimage {
+  0%   { left:-50%; top:15%;}
+  25%   { left:-50%; top:15%;}
+  50%   { left:-50%; top:15%;}
+  75%   { left:-50%; top:15%;}
+  100% { left:-2%; top:15%;}
+}
+@keyframes lefttext {
+  0% { left: 10%; top: -5%; text-shadow: none;}
+  25% { left: 10%; top: -5%; text-shadow: none; }
+  50% { left: 10%; top: -5%; text-shadow: none; }
+  75% { left: 10%; top: -5%; text-shadow: none; }
+  90% { left: 10%; top: 20%; text-shadow: none; }
+  100% { left: 10%; top: 20%; text-shadow: 0px 0px 10px white; }
+}
+
+@media (max-width: 768px) {}

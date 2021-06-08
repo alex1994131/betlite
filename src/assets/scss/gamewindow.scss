@@ -1,0 +1,114 @@
+$bg-color: #1a1a1a;
+
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+h4 {
+    color: white;
+}
+h5 {
+    color: white;
+}
+h6 {
+    color: white;
+}
+svg {
+    color: white;
+}
+
+.pw-overlay {
+    // background: url('../img/pages/firstpage/Ho6hQWs.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    text-align: center;
+}
+.iframe-container.card {
+    width: 80%;
+    height: 90%;
+    display: inline-flex;
+    background-color: rgba(0,0,0,.5);
+    margin-top: 3%;
+}
+.iframe-header {
+    width: 100%;
+    height: 8vh;
+    padding: 0px;
+    .row {
+        margin: 0px;
+        width: 100%;
+        padding: 1vw 0px;
+        .header-left {
+            display: inline-flex;
+            float: left;
+            .header-clock {
+                display: inline-table;
+                h4 {
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+                svg {
+                    display: table-cell;
+                    vertical-align: middle;
+                    font-size: 20px;
+                    color: white;
+                }
+            }
+        }
+        .header-button {
+            display: inline-flex;
+            float: right;
+            svg {
+                margin-left: 5px;
+                font-size: 15px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.iframe-body {
+    height: 90%;
+}
+.sc-dNLxif {
+    display: none !important;
+}
+.game-header-button {
+    right: -30px;
+    height: 130px;
+    overflow: hidden;
+    .game-header-button-group {
+        display: grid;
+        position: relative;
+        svg {
+            z-index: 1;
+            margin: 6px 5px;
+            background: #07232b;
+            padding: 1px;
+            border-radius: 3px;
+            &:hover{
+                cursor: pointer;
+            }
+            path {
+                stroke: #0cda6d;
+            }
+        }
+    }
+    .game-header-button-background {
+        position: absolute;
+        width: 100%;
+        height: 130px;
+        background-color: #0c5869;
+        z-index: 0;
+        transform: skewY(-30deg);
+        top: -25px;
+    }
+}

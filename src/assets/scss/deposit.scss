@@ -1,0 +1,108 @@
+$font-color1 : #fff;
+$font-color2 : white;
+$font-size1 : 17px;
+$font-size2 : 13px;
+$img-background : white;
+
+.justify-content-centers{
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    text-align: center;
+}
+.justify-content-starts{
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center;
+    text-align: center;
+}
+.justify-content-ends{
+    display: flex;
+    justify-content: flex-end !important;
+    align-items: center;
+    text-align: center;
+}
+.img-style{
+    max-width: 190px;
+    height: 65px;
+    width: 100%;
+    background-color: $img-background;
+    border-radius: 5px;
+}
+.payment-deposit-menus{
+    border-radius: 10px;
+    background-color: #0f282d;
+}
+.payment-deposit{
+    padding: 10px;
+    padding-top: 5px;
+    div{
+        h4{
+            color: $font-color1;
+            text-align: center;
+        }    
+        .payment-deposit-active{
+            div{
+                margin-top: 5px;
+                @extend .justify-content-centers;
+            }
+        }
+    }
+}
+.payment-item{
+    margin: 10px 0px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    animation: 1s background-color;
+}
+.payment-deposit-all{
+    .item{
+        cursor: pointer;
+        @extend .payment-item;
+        background-color: #6a748e;
+    }
+    .item:hover{
+        cursor: pointer;
+        background-color: #1b895e  !important;
+        box-shadow: 0 0 10px 1px rgba(31, 174, 115, 0.7);
+        @extend .payment-item;
+    }
+    .payment-deposit-item-active{
+        cursor: pointer;
+        box-shadow: 0 0 10px 1px rgba(31, 174, 115, 0.7);
+        background-color: #1b895e  !important;
+        @extend .payment-item;
+    }
+    h4{
+        color: $font-color1;
+        text-align: center;
+        width: 100%;
+    } 
+}
+.payment-deposit-active{
+    div{
+        img{
+            @extend .img-style;
+            margin-top: 5px;
+        }
+    }
+}
+
+.payment-deposit-text{
+    color: $font-color2;
+}
+
+.font-1{
+    font-size: $font-size1;
+}
+.font-2{
+    font-size: $font-size2;
+}
+
+.payment-deposit-item-img{
+    @extend .img-style;
+    @extend .justify-content-centers;
+    // max-width: 130px;
+    height: 45px;
+    width: 100%;
+}
